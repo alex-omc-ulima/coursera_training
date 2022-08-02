@@ -2,7 +2,6 @@
 
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions"""
-  # random string that must be deleted by a pull request
   if type(username) != str:
     raise TypeError("username MUST be a string")
   
